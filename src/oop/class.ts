@@ -35,6 +35,12 @@
 
 // Objects (Q-4)
 
+
+
+
+
+
+
 //Inheritance(parent& child class)
 
 // class Person {
@@ -62,3 +68,8 @@
 // const student = new Student('Alice',20,'A');
 
 // console.log( student.getDetails() );
+
+
+
+
+
