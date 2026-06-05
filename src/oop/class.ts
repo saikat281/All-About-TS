@@ -1,4 +1,4 @@
-// Method-1
+// // Method-1
 // class Animal {
 //     name:string;
 //     species: string;
@@ -18,19 +18,19 @@
 // console.log(cat.sound)
 
 // Method-2 : parameter properties
-// class Animal {
+class Animal {
 
 
-//     constructor(public name: string, public species: string, public sound: string) {
+    constructor(public name: string, public species: string, public sound: string) {
 
-//     }
-// }
+    }
+}
 
-// //const cat = new Animal('cat bhai', 'cat', 'meow')
+//const cat = new Animal('cat bhai', 'cat', 'meow')
 
-// const dog = new Animal('dogesh', 'dog', 'ghew ghew')
+const dog = new Animal('dogesh', 'dog', 'ghew ghew')
 
-// console.log(dog.sound)
+console.log(dog.sound)
 
 
 // Objects (Q-4)

@@ -27,30 +27,30 @@
 // ------------------------------------------------takes Different memory 
 
 // Static
-class Counter{
+// class Counter{
     
-    static count : number = 0;
+//     static count : number = 0;
 
-    increament(){
-        return (Counter.count = Counter.count + 1);
-    }
+//     increament(){
+//         return (Counter.count = Counter.count + 1);
+//     }
 
-    decreament(){
-        return (Counter.count = Counter.count - 1);
-    }
-}
+//     decreament(){
+//         return (Counter.count = Counter.count - 1);
+//     }
+// }
 
 
-const instance1 = new Counter();
+// const instance1 = new Counter();
 
-console.log(instance1.increament()) //1
-console.log(instance1.increament()) // 1 >> 2
-console.log(instance1.increament()) // 2 >> 3
+// console.log(instance1.increament()) //1
+// console.log(instance1.increament()) // 1 >> 2
+// console.log(instance1.increament()) // 2 >> 3
 
-const instance2 =  new Counter();
+// const instance2 =  new Counter();
 
-console.log(instance2.increament()) // 3 >> 4
-console.log(instance2.increament()) // 4 >> 5
-console.log(instance2.increament()) // 5 >> 6
+// console.log(instance2.increament()) // 3 >> 4
+// console.log(instance2.increament()) // 4 >> 5
+// console.log(instance2.increament()) // 5 >> 6
 
 // -----------------------------------------Both takes same memory
