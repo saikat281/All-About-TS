@@ -44,22 +44,22 @@
 
 
 
-//objectts-node 
-// const getProperty = (obj:any, key: string) => {
+// objectts-node 
+const getProperty = (obj:any, key: string) => {
 
-//     return obj[key]
+    return obj[key]
 
-// }
+}
 
-// const user = {
-//     id: 1,
-//     name: "John Doe",
-//     age: 21
-// }
+const user = {
+    id: 1,
+    name: "John Doe",
+    age: 21
+}
 
-// console.log(getProperty(user,'name'))
-// console.log(getProperty(user,'age'))
-// console.log(getProperty(user,'id'))
+console.log(getProperty(user,'name'))
+console.log(getProperty(user,'age'))
+console.log(getProperty(user,'id'))
 
 
 
@@ -94,17 +94,17 @@
 
 
 
-// Intersection of two array
+//Intersection of two array
 
-// const getIntersection = (arr1: number[],arr2:number[]): number[] =>{
-//     return arr1.filter(value => arr2.includes(value))
-// }
-
-
+const getIntersection = (arr1: number[],arr2:number[]): number[] =>{
+    return arr1.filter(value => arr2.includes(value))
+}
 
 
-// const arr1 = [1, 2, 3, 4, 5]
-// const arr2 = [3, 4, 5, 6, 7]
 
-// console.log(getIntersection(arr1,arr2));
+
+const arr1 = [1, 2, 3, 4, 5]
+const arr2 = [3, 4, 5, 6, 7]
+
+console.log(getIntersection(arr1,arr2));
 
