@@ -1,29 +1,29 @@
 
-// // Dynamic
-// class Counter{
-//     count : number = 0;
+// Dynamic
+class Counter{
+    count : number = 0;
 
-//     increament(){
-//         return (this.count = this.count + 1);
-//     }
+    increament(){
+        return (this.count = this.count + 1);
+    }
 
-//     decreament(){
-//         return (this.count = this.count - 1);
-//     }
-// }
+    decreament(){
+        return (this.count = this.count - 1);
+    }
+}
 
 
-// const instance1 = new Counter();
+const instance1 = new Counter();
 
-// console.log(instance1.increament()) //1
-// console.log(instance1.increament()) // 1 >> 2
-// console.log(instance1.increament()) // 2 >> 3
+console.log(instance1.increament()) //1
+console.log(instance1.increament()) // 1 >> 2
+console.log(instance1.increament()) // 2 >> 3
 
-// const instance2 =  new Counter();
+const instance2 =  new Counter();
 
-// console.log(instance2.increament()) //1
-// console.log(instance2.increament()) // 1 >> 2
-// console.log(instance2.increament()) // 2 >> 3
+console.log(instance2.increament()) //1
+console.log(instance2.increament()) // 1 >> 2
+console.log(instance2.increament()) // 2 >> 3
 // ------------------------------------------------takes Different memory 
 
 // Static
